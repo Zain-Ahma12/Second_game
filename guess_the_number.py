@@ -1,4 +1,5 @@
-guess_number=50
+from random import choice
+guess_number=choice([x for in range(101)])
 Chance=10
 print("Welcome to 'Guess the Number' game...")
 while Chance>0:
